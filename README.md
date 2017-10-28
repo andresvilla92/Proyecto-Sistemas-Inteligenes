@@ -8,29 +8,32 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
+Have installed conda 
+Download from:
+https://www.continuum.io/downloads
 ```
-Give examples
+conda create -n py3 python=3
+```
+
+Install Jupyter
+```
+conda install jupyter notebook
 ```
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
+Run a virtual enviroment with python 3
 
 ```
-Give the example
+source activate py3
 ```
 
-And repeat
+Then run the jupyter server
 
 ```
-until finished
+jupyter notebook
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
